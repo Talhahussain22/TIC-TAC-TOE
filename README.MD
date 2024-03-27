@@ -2,16 +2,15 @@ The project is a console-based implementation of the classic Tic-Tac-Toe game fo
 
 Features:
 create_board(row):
-
 Displays the current state of the game board.
+
 create_user():
-
 Allows users to input their chosen marks (X or O).
+
 is_board_full():
-
 Checks if the game board is full, indicating a tie.
-winner(i, char):
 
+winner(i, char):
 Checks if a player has won the game based on the current board state.
 match_box(l):
 
